@@ -1,5 +1,5 @@
 [build]
-  command = "npx turbo run build && cd ./apps/site1"
+  command = "npx turbo run build"
   functions = "netlify/functions"
   publish = "public"
 
