@@ -1,4 +1,5 @@
 [build]
+  base = "./apps/site1"
   command = "cd ../../ && npm i && npx turbo run build && cd ./apps/site1"
   functions = "netlify/functions"
   publish = "public"
